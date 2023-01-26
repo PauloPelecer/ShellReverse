@@ -7,3 +7,5 @@ import socket
 class malware:
   def __init__(self):
     self.port = 2222
+    self.host = '0.0.0.0'
+    
