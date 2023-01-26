@@ -3,5 +3,4 @@
 import os
 import subprocess as s
 import socket
-
 #Funcoes De Escolha:
